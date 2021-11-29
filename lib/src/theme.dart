@@ -1,11 +1,11 @@
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 
-final lightTheme = FlexColorScheme.light(
+final lightTheme = FlexThemeData.light(
   scheme: FlexScheme.mandyRed,
   appBarElevation: 4, // Material Design
-).toTheme;
+);
 
-final darkTheme = FlexColorScheme.dark(
-  scheme: FlexScheme.deepPurple,
+final darkTheme = FlexThemeData.dark(
+  scheme: FlexScheme.blueWhale,
   appBarElevation: 4, // Material Design
-).toTheme;
+);
